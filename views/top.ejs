@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Express</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>views/top.ejs</h1>
+    <h2>Hello, index page!!</h2>
+    <a href="/index">一覧を見る</a>
+    <a href="/new">登録する</a>
+
+    <%
+    const items = [
+    {id:1, name:"sato"},
+    {id:2, name:"saito"},
+    {id:3, name:"tanaka"},
+    ];%>
+
+    <% items.forEach((item)=>{ %>
+    <%= item.id %>
+    <%= item.name %>
+    <% }); %>
+</body>
+
+</html>

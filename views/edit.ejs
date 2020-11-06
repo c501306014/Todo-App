@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>express</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>編集</h1>
+    <form action="/update/<%=item.id%>" method="POST">
+        <input value="<%=item.name%>" type="text" name="item">
+        <input type="submit" value="作成">
+    </form>
+    <a href="/">TOP</a>
+    <a href="/index">一覧を見る</a>
+
+</body>
+
+</html>
