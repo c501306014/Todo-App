@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const client = mysql.createConnection({
     user: 'root',
-    password: '',
+    password: 'root',
     database: 'quotes',
     port: 3306
 });
