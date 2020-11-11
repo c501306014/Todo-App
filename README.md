@@ -1,5 +1,5 @@
 # todo-app
-CRUD勉強用のTodoアプリ
+CRUD勉強用のTodoアプリ(mac版)
 
 require
 
@@ -7,4 +7,4 @@ node v14.15.0
 
 express 4.16.1
 
-xampp v3.2.4(mongoDB+Apache)
+mamp 6.0.1
